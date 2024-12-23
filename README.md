@@ -34,8 +34,6 @@ module df(D,clk,Q,Qbar);
 input D,clk;
 output reg Q;
 output reg Qbar;
-initial Q=0;
-initial Qbar=1;
 always @(posedge clk)
 begin
 Q=D;
